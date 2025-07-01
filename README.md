@@ -1,0 +1,99 @@
+## AIM 
+
+To Create a Webpage to Display my Favorite Books.( Use headings, paragraphs, and a table or list format.)
+
+## PROGRAM
+```
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Favorite Books</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      color: darkblue;
+    }
+    table {
+      width: 70%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    ul {
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Favorite Books</h1>
+
+  <p>I enjoy reading books that inspire, teach, or transport me to a different world. Here are some of my all-time favorites:</p>
+
+  <h2>Top Picks (List)</h2>
+  <ul>
+    <li><strong>Atomic Habits</strong> by James Clear</li>
+    <li><strong>In Order To Live</strong> by Yeonmi Park</li>
+    <li><strong>Americanah</strong> by Chimamanda Ngozi Adichi</li>
+    <li><strong>The White Queen</strong> by Philippa Gregory</li>
+    <li><strong>The Night Train at Deoli</strong> by Ruskin Bond</li>
+  </ul>
+
+  <h2>Book Details (Table)</h2>
+  <table>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Genre</th>
+    </tr>
+    <tr>
+      <td>Atomic Habits</td>
+      <td>James Clear</td>
+      <td>Self-help</td>
+    </tr>
+    <tr>
+      <td>In Order To Live</td>
+      <td>Yeonmi Park</td>
+      <td>autobiography</td>
+    </tr>
+    <tr>
+      <td>Americanah</td>
+      <td>Ngozi Adichi</td>
+      <td>Novel</td>
+    </tr>
+    <tr>
+      <td>The White Queen</td>
+      <td>Philippa Gregory</td>
+      <td>Novel</td>
+    </tr>
+    <tr>
+      <td>The Night Train at Deoli</td>
+      <td>Ruskin Bond</td>
+      <td>Short stories</td>
+    </tr>
+  </table>
+
+</body>
+</html>
+
+```
+## OUTPUT
+
+![Screenshot (95)](https://github.com/user-attachments/assets/7c8c2169-60ba-4abd-9703-50a54d4b879f)
+
+
+## RESULT
+
+Thus , a webpage is created to display my favorite books.
+
